@@ -1,0 +1,60 @@
+:root{
+    background-color:lightskyblue ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    font-size: 3rem;
+    margin: 30px;
+    width: 33%;
+}
+
+.container-alarm{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: lightseagreen ;
+}
+
+#alarmSubmit{
+    margin: 5px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius:50px;
+    cursor: pointer;
+    
+}
+
+
+
+
+#alarm{
+    margin: 34px;
+    padding: 10px;
+    font-size: 1.5rem;
+    background: white;
+
+}
+.cont{
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+
+#form-group{
+    display: flex;
+    margin: 10px;
+    padding: 3px;
+}
+
+#form-label{
+    display: flex;
+    margin: 10px;
+    padding: 3px;
+}
+

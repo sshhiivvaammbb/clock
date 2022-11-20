@@ -30,10 +30,11 @@ setInterval(displayTime,1000);
 const alarmSubmit = document.getElementById('alarmSubmit');
 alarmSubmit.addEventListener('click', setAlarm);
 
-var audio = new Audio('');
+var audio = new Audio('drop-it-124014.mp3');
 
 function ringBell() {
     audio.play();
+    // alert("the bell is ringing");
     
 }
 

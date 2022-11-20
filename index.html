@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="conatiner">
+    <div class="container">
         <span id="hours">00</span>
         <span> : </span>
 
@@ -25,8 +25,13 @@
 
         <form>
             <div class="form-group">
+                <div class="cont">
               <label for="alarm" class="form-label">Enter the time for alarm</label>
-              <input type="text" id="alarm" name="alarm" placeholder="enter the time in yyyy-mm-dd hh:mm:ss">
+              </div>
+              <div class="text">
+                <input type="text" id="alarm" name="alarm" placeholder="enter the time in yyyy-mm-dd hh:mm:ss">
+              </div>
+              
             </div>
             <button id="alarmSubmit" type="submit" class="btn">Set Alarm</button>
           </form>
