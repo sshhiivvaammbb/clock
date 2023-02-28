@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>digital clock</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <span id="hours">00</span>
-        <span> : </span>
+      <span id="hours">00</span>
+      <span> : </span>
 
-        <span id="minutes">00</span>
-        <span> : </span>
+      <span id="minutes">00</span>
+      <span> : </span>
 
-        <span id="seconds">00</span>
-        <span id="session">PM</span>
+      <span id="seconds">00</span>
+      <span id="session">PM</span>
     </div>
-
 
     <div class="container-alarm">
-        <h1>Option to set the alarm</h1>
+      <h1>Option to set the alarm</h1>
 
-        <form>
-            <div class="form-group">
-                <div class="cont">
-              <label for="alarm" class="form-label">Enter the time for alarm</label>
-              </div>
-              <div class="text">
-                <input type="text" id="alarm" name="alarm" placeholder="enter the time in yyyy-mm-dd hh:mm:ss">
-              </div>
-              
-            </div>
-            <button id="alarmSubmit" type="submit" class="btn">Set Alarm</button>
-          </form>
-        
-
+      <form class="form">
+        <div class="form-group">
+          <div class="cont">
+            <label for="alarm">Enter the time for alarm</label>
+          </div>
+          <div class="text">
+            <input
+              type="text"
+              name="alarm"
+              placeholder="enter the time in yyyy-mm-dd hh:mm:ss"
+            />
+          </div>
+        </div>
+        <button id="alarmSubmit" type="submit" class="btn">Set Alarm</button>
+      </form>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

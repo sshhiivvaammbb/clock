@@ -1,60 +1,60 @@
-:root{
-    background-color:lightskyblue ;
+:root {
+  background-color: black;
+  padding: 2em;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightslategray;
-    font-size: 3rem;
-    margin: 30px;
-    width: 33%;
-}
-
-.container-alarm{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: lightseagreen ;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: aqua;
+  border: 2px solid aqua;
+  font-size: 3rem;
+  width: 33%;
+  height: 50vh;
+  border-radius: 50%;
 }
 
-#alarmSubmit{
-    margin: 5px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border-radius:50px;
-    cursor: pointer;
-    
+.container-alarm {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  color: aqua;
 }
 
-
-
-
-#alarm{
-    margin: 34px;
-    padding: 10px;
-    font-size: 1.5rem;
-    background: white;
-
-}
-.cont{
-    margin: 10px;
-    padding: 10px;
-    font-size: 1.5rem;
+#alarmSubmit {
+  border-radius: 1em;
+  cursor: pointer;
+  background-color: black;
+  color: aqua;
+  border: 0.5em solid aqua;
+  width: 20%;
+  margin: auto;
+  padding: 0.5em;
 }
 
-
-#form-group{
-    display: flex;
-    margin: 10px;
-    padding: 3px;
+.cont {
+  font-size: 1.5rem;
 }
 
-#form-label{
-    display: flex;
-    margin: 10px;
-    padding: 3px;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
 
+.form-group {
+  display: flex;
+  gap: 2em;
+}
+
+.text {
+  border: 0.25em solid aqua;
+  outline: none;
+  width: 60%;
+  margin: auto;
+}
+
+.text input {
+  width: 99%;
+}
